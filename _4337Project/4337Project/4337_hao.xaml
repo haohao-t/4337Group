@@ -8,8 +8,8 @@
         Title="_4337_hao" Height="450" Width="800"  WindowStartupLocation="CenterScreen">
     <StackPanel Width="500">
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-            <Button Content="Импорт данных" Width="100" Margin="10"/>
-            <Button Content="Экспорт в Excel" Width="100" Margin="10"/>
+            <Button Name="Import" Click="Import_Click" Content="Импорт данных" Width="100" Margin="10"/>
+            <Button Name="Export" Click="Export_Click" Content="Экспорт в Excel" Width="100" Margin="10"/>
         </StackPanel>
         <Label Content="Fursova Adelina" HorizontalAlignment="Center" Margin="10"/>
         <Label Content="25 августа" HorizontalAlignment="Center" Margin="10"/>
