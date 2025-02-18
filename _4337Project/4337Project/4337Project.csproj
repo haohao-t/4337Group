@@ -226,6 +226,7 @@
     <Compile Include="4337_SharifullnAnvar.xaml.cs">
       <DependentUpon>4337_SharifullnAnvar.xaml</DependentUpon>
     </Compile>
+    <Compile Include="hao_Export_4var.cs" />
     <Compile Include="hao_Import_4var.cs" />
     <Compile Include="_4337_d0h.xaml.cs">
       <DependentUpon>_4337_d0h.xaml</DependentUpon>
