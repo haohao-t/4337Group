@@ -5,9 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_4337Project"
         mc:Ignorable="d"
-        Title="_4337_hao" Height="450" Width="800">
-    <Grid>
-        <Label Content="Fursova Adelina" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <Label Content="89" HorizontalAlignment="Center" VerticalAlignment="Top" RenderTransformOrigin="0.593,2.504" Margin="0,230,0,0"/>
-    </Grid>
+        Title="_4337_hao" Height="450" Width="800"  WindowStartupLocation="CenterScreen">
+    <StackPanel Width="500">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content="Импорт данных" Width="100" Margin="10"/>
+            <Button Content="Экспорт в Excel" Width="100" Margin="10"/>
+        </StackPanel>
+        <Label Content="Fursova Adelina" HorizontalAlignment="Center" Margin="10"/>
+        <Label Content="25 августа" HorizontalAlignment="Center" Margin="10"/>
+    </StackPanel>
+
 </Window>
